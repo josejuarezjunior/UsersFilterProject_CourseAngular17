@@ -6,7 +6,7 @@
     </div>
     <div class="main-left-div">
       <!-- Conteúdo da div esquerda (80% de altura) -->
-      <app-users-list (userSelected)="onUserSelected($event)" [usersList]="usersList"></app-users-list>
+      <app-users-list (userSelected)="onUserSelected($event)" [usersList]="usersListFiltered"></app-users-list>
     </div>
   </div>
   <div class="right-div">
